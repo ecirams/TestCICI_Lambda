@@ -4,5 +4,5 @@ def lambda_handler(event, context):
     # TODO implement
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello from Lambda! - From GitHub Actions - By CgiRams')
+        'body': json.dumps('Hello from Lambda! - From GitHub Actions -  For demo in the class on 31s May')
     }
