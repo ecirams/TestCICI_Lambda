@@ -2,8 +2,7 @@ name: Deploy Lambda Function
 
 on:
   push:
-    paths:
-      - "src/**"
+    # Trigger the workflow on push to the main branch
     branches: [main]
 
 jobs:
